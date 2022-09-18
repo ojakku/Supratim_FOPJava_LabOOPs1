@@ -27,7 +27,7 @@ public class CredentialService {
         password[2] = specialCharacters.charAt(random.nextInt(specialCharacters.length()));
         password[3] = numbers.charAt(random.nextInt(numbers.length()));
      
-        for(int i = 4; i< length ; i++) {
+        for(int i = 4; i < length ; i++) {
            password[i] = combinedChars.charAt(random.nextInt(combinedChars.length()));
         }
 
