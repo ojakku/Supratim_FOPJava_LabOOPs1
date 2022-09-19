@@ -100,9 +100,6 @@ public class CredentialService {
             System.out.println("Invalid Choice, please try again.");
         }
         
-        // generateEmailAddress(firstName, lastName, departmentName, companyName);
-        // CredentialService.showCredentials(firstName, lastName);
-
     }
 
 
