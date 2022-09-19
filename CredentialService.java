@@ -74,26 +74,34 @@ public class CredentialService {
 
             case 1:
             departmentName = "tech";
+            generateEmailAddress(firstName, lastName, departmentName, companyName);
+            CredentialService.showCredentials(firstName, lastName);
             break;
 
             case 2:
             departmentName = "admin";
+            generateEmailAddress(firstName, lastName, departmentName, companyName);
+            CredentialService.showCredentials(firstName, lastName);
             break;
 
             case 3:
             departmentName = "hr";
+            generateEmailAddress(firstName, lastName, departmentName, companyName);
+            CredentialService.showCredentials(firstName, lastName);
             break;
 
             case 4:
             departmentName = "legal";
+            generateEmailAddress(firstName, lastName, departmentName, companyName);
+            CredentialService.showCredentials(firstName, lastName);
             break;
 
             default:
             System.out.println("Invalid Choice, please try again.");
         }
         
-        generateEmailAddress(firstName, lastName, departmentName, companyName);
-        CredentialService.showCredentials(firstName, lastName);
+        // generateEmailAddress(firstName, lastName, departmentName, companyName);
+        // CredentialService.showCredentials(firstName, lastName);
 
     }
 
